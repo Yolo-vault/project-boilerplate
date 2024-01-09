@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Install Aftman
-        uses: ok-nick/setup-aftman@v0
+        uses: ok-nick/setup-aftman@v0.2.7
       - name: Lint
         run: |
           selene ./src
