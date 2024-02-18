@@ -23,19 +23,23 @@ git clone https://github.com/dev-jhon-yo/project-boilerplate.git
 cd project-boilerplate
 ```
 
-2. **Install tools**:
+2. **Create Packages Directory**
+
+In the project root, create a folder called `Packages`. You can do this according to your operation system.
+
+3. **Install tools**:
 
 ```bash
 foreman install
 ```
 
-3. **To build the place from scratch, execute**:
+4. **To build the place from scratch, execute**:
 
 ```bash
 rojo build -o "project-boilerplate.rbxlx"
 ```
 
-4. **Afterward, open `project-boilerplate.rbxlx` in Roblox Studio and initiate the Rojo server**:
+5. **Afterward, open `project-boilerplate.rbxlx` in Roblox Studio and initiate the Rojo server**:
 
 ```bash
 rojo serve
